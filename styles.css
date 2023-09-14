@@ -1,0 +1,147 @@
+*{
+    text-decoration: none ;
+    font-family: 'Almarai', sans-serif ;
+}
+
+a{
+    color:black ;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1  ;
+    color:black ;
+}
+
+/*header*/
+header{
+    margin: 0;
+}
+
+header .dealer-logo{
+    text-align: center;
+}
+
+header .dealer-logo img{
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+header .nav-bar{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding: 5px 0px;
+    background-color: #ffffff;
+    height: inherit;
+    vertical-align: center;
+    box-shadow: 0px 0px 10px #a9a9a9;
+}
+
+header .nav-bar .nav{
+    /* border-radius: 15px; */
+    width: 130px;
+    height: 45px;
+    line-height: 0px;
+    display: inline-block;
+    /* color: white; */
+    /* text-shadow: 1px 1px 1px white; */
+    font-size: 20px;
+    /* background-color: lightseagreen; */
+    transition: font-size 0.5s, box-shadow 0.5s, border 0.5s;
+    vertical-align: top;
+    border: 1px solid white;
+    /* line-height: 44px; */
+}
+
+header .nav-bar .nav:hover{
+    font-size: 22px;
+    box-shadow: 0px 0px 15px #f0f0f0;
+    border: 1px solid #f0f0f0;
+    /* background-color: #909090; */
+    /* border: 1px solid #858585; */
+}
+/*end of the header*/
+
+/*main*/
+main{
+    background-color: white;
+    width: auto;
+    margin: 10px auto;
+    box-shadow: 0px 0px 10px #a9a9a9;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.title{
+    background-color: white;
+    border-radius: 15px;
+    width: fit-content;
+    padding: 5px 15px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.index{
+    padding: 0px 30px;
+}
+
+.index p{
+    font-size: 20px;
+    
+}
+/*end of main*/
+
+/*table*/
+table{
+    margin: 0 auto;
+    text-align: center;
+    width: fit-content;
+    font-size: 20px;
+    border: 1px solid #1f1f1f;
+}
+
+th, td{
+    padding: 20px 20px;
+}
+
+td{
+    border-top: 1px solid #1f1f1f;
+}
+/*end of table*/
+
+/*button*/
+button{
+    width: 100px;
+    background-color: #f1f1f1;
+    margin: 0px auto;
+    text-align: center;
+    height: 40px;
+    border: 1px solid #1f1f1f;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    line-height: 9px;
+    transition: background-color 0.5s, font-size 0.5s;
+}
+
+button:hover{
+    background-color: #a9a9a9;
+    font-size: 20px;
+}
+/*end of button*/
+
+input, label, select, textarea{
+    font-size: 18px;
+    margin: 14px 5px;
+    text-align: center;
+}
+
+footer{
+    height: fit-content;
+    /* line-height: 10px; */
+    text-align: center;
+    background-color: white;
+    padding: 5px 0px;
+    box-shadow: 0px 0px 10px #a9a9a9;
+}
